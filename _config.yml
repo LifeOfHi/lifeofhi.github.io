@@ -14,7 +14,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Hari Ilangovan # add your name
 author-img: hari-ilangovan.png # add your photo
-about-author: I am an MS Analytics Candidate at Georgia Tech. <br /> I have a passion for data science, sports, and digital art. # add description
+about-author: I am an MS Analytics Candidate at Georgia Tech. <br /> <br /> I have a passion for data science, sports, and digital art. # add description
 # social-twitter: # add your Twitter handle
 # social-facebook: # add your Facebook handle
 social-github: LifeOfHi # add your Github handle

@@ -5141,6 +5141,9 @@ table tfoot td {
 .clearfix::after {
   clear: both; }
 
+.current {
+  color: black; }
+
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
 .sidebar {
   display: flex;
