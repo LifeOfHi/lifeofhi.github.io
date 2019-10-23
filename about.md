@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: main
 title: About
 ---
 <h1>About me</h1>
