@@ -1,0 +1,50 @@
+I"ç<p>The classes I‚Äôm currently enrolled in covering the following topics:</p>
+<ul>
+  <li>Computing for Data Analytics</li>
+  <li>Regression Analysis</li>
+  <li>Deterministic Optimization</li>
+  <li>Analytics Modeling</li>
+</ul>
+
+<h2 id="techniques-i-have-learned-include">Techniques I have learned include:</h2>
+
+<h3 id="supervised-learning-techniques">Supervised Learning Techniques:</h3>
+<ul>
+  <li>Classification (SVM, KNN)</li>
+</ul>
+
+<h3 id="unsupervised-learning-techniques">Unsupervised Learning Techniques:</h3>
+<ul>
+  <li>Clustering (K-means)</li>
+</ul>
+
+<h3 id="time-series-analysis-techniques">Time Series Analysis Techniques:</h3>
+<ul>
+  <li>Cumulative Sum, Exponential Smoothing, ARIMA, GARCH</li>
+</ul>
+
+<h3 id="tree-based-models">Tree-based models:</h3>
+<ul>
+  <li>CART (Classification and Regression Trees) Random Forests</li>
+</ul>
+
+<h3 id="model-selection-and-validation-techniques">Model Selection and Validation Techniques:</h3>
+<ul>
+  <li>k-fold Cross Validation</li>
+</ul>
+
+<h3 id="data-preparation-techniques">Data Preparation Techniques:</h3>
+<ul>
+  <li>Principal Component Analysis,</li>
+</ul>
+
+<h3 id="predictive-modeling-techniques">Predictive Modeling Techniques:</h3>
+<ul>
+  <li>(Multiple Linear Regression, ANOVA, Logistic Regression)</li>
+</ul>
+
+<h3 id="optimization-techniques">Optimization Techniques:</h3>
+<ul>
+  <li>Convex Optimization (transportation, capacity, scheduling)</li>
+</ul>
+:ET
