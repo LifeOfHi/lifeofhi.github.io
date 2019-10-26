@@ -1,100 +1,9 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags  -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+---
+title: Home
+---
+<body id="page-top">
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Custom SASS -->
-    <link rel="stylesheet" href="/assets/css/styles.css">
-
-      <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-    <link href="assets/fontawesome-free/css/all.min.css" rel="stylesheet">
-
-    <!-- Custom styles for resume template -->
-    <link href="assets/css/resume.css" rel="stylesheet">
-
-    <title>Home</title>
-
-    <!-- Jekyll meta  -->
-    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Hari Ilangovan" />
-    <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Home | Hari Ilangovan</title>
-<meta name="generator" content="Jekyll v4.0.0" />
-<meta property="og:title" content="Home" />
-<meta name="author" content="Hari Ilangovan" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Where I post updates and maintain my portfolio" />
-<meta property="og:description" content="Where I post updates and maintain my portfolio" />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
-<meta property="og:site_name" content="Hari Ilangovan" />
-<script type="application/ld+json">
-{"url":"http://localhost:4000/","name":"Hari Ilangovan","author":{"@type":"Person","name":"Hari Ilangovan"},"description":"Where I post updates and maintain my portfolio","@type":"WebSite","headline":"Home","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-  </head>
-  <body>
-    <!-- <nav>
-    
-        <a href="/" class="current">Home</a>
-    
-        <a href="/about.html" >About</a>
-    
-        <a href="/blog.html" >Blog</a>
-    
-        <a href="/portfolio.html" >Portfolio</a>
-    
-</nav> -->
-    <body id="page-top">
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">site.author</span>
-        <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/hari-ilangovan.png" alt="">
-        </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-        
-        <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about" >About</a>
-            <!--  -->
-        </li>
-        
-        <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience" >Experience</a>
-            <!--  -->
-        </li>
-        
-        <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education" >Education</a>
-            <!--  -->
-        </li>
-        
-        <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills" >Skills</a>
-            <!--  -->
-        </li>
-        
-        <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests" >Interests</a>
-            <!--  -->
-        </li>
-        
-        </ul>
-    </div>
-</nav>
-        
+{% include navbar.html %}    
     <div class="container-fluid p-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
@@ -109,10 +18,10 @@
         </div>
         <p class="lead mb-5">I am a analytics professional interested in the areas of optimization and machine learning. I'm currently attending Georgia Tech in pursuit of a Master's of Science in Analytics (MSA).  </p>
         <div class="social-icons">
-            <a href="https://www.linkedin.com/in/hari-ilangovan/">
+            <a href="{{ site.linkedin }}">
             <i class="fab fa-linkedin-in"></i>
             </a>
-            <a href="https://github.com/LifeOfHi">
+            <a href="{{ site.github }}">
             <i class="fab fa-github"></i>
             </a>
         </div>
@@ -121,167 +30,19 @@
 
     <hr class="m-0">
     
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-        <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
-
-        
-        
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="resume-content">
-            <h3 class="mb-0">Senior Consultant - Data & Advanced Analytics </h3>
-            <div class="subheading mb-3">Protiviti</div>
-            <p>Served client needs in the areas of Anti-Money Laundering and Customer Identification from both a quantitative and qualitative perspective. Performed model validation, sensitivity analysis, and model tuning exercises.</p>
-            </div>
-            <div class="resume-date text-md-right">
-            <span class="text-primary">July 2016 - July 2019</span>
-            </div>
-        </div>
-        
-        
-        
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="resume-content">
-            <h3 class="mb-0">Chemical Engineer Co-op </h3>
-            <div class="subheading mb-3">Lockheed Martin - Advanced Energy Storage</div>
-            <p>Developed Python application used for battery experiment data analysis. Reduced analysis runtime by 90% and distributed Python application to engineers to ensure standardized reporting.</p>
-            </div>
-            <div class="resume-date text-md-right">
-            <span class="text-primary">July 2015 - June 2016</span>
-            </div>
-        </div>
-        
-        
-        
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-                <div class="resume-content">
-                <h3 class="mb-0">Chemical Engineer Co-op </h3>
-                <div class="subheading mb-3">Rogers Corporation Innovation Center</div>
-                <p>Developed Lorentzian curve-fitting models in Python to extract critical magnetic and dielectric properties from magnetodielectric experiment test results.</p>
-                </div>
-                <div class="resume-date text-md-right">
-                <span class="text-primary">July 2014 - Dec 2014</span>
-                </div>
-            </div>
-        
-        
-        </div>
-
-    </section>
+    {% include work_experience.html %}
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
-        <div class="w-100">
-        <h2 class="mb-5">Education</h2>
-        
-        
-        
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                <div class="resume-content">
-                <h3 class="mb-0">Georgia Institute of Technology</h3>
-                <div class="subheading mb-3">Master of Science in Analytics</div>
-                <div>Analytical Tools Track - Focuses on knowledge and understanding of the quantitative methodology of descriptive, predictive, and prescriptive analytics; how to select, build, solve, and analyze models using methodology such as parametric and non-parametric statistics, regression, forecasting, data mining, machine learning, optimization, stochastics, and simulation.</div>
-                </div>
-                <div class="resume-date text-md-right">
-                <span class="text-primary">Aug 2019 - Dec 2020 (Expected)</span>
-                </div>
-            </div>    
-        
-        
-        
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-            <div class="resume-content">
-            <h3 class="mb-0">Northeastern University</h3>
-            <div class="subheading mb-3">Bachelor of Science in Chemical Engineering</div>
-            <div>Minor in Computer Science</div>
-            </div>
-            <div class="resume-date text-md-right">
-            <span class="text-primary">Aug 2012 - July 2017</span>
-            </div>
-        </div>
-        
-        
-        
-        
-
-        </div>
-    </section>
+    {% include education.html %}
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-        <div class="w-100">
-        <h2 class="mb-5">Skills</h2>
-
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-        <ul class="list-inline dev-icons">
-            <li class="list-inline-item">
-            <i class="fab fa-python"></i>
-            </li>
-            <li class="list-inline-item">
-            <i class="fab fa-r-project"></i>
-            </li>
-            <li class="list-inline-item">
-            <i class="fab fa-java"></i>
-            </li>
-            <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
-            </li>
-            <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
-            </li>
-        </ul>
-
-        <div class="subheading mb-3">Analytics Competencies</div>
-        <ul class="fa-ul mb-0">
-            <li>
-                <i class="fa-li fa fa-check"></i>
-                Supervised learning techniques: (SVM and KNN Classification) </li>
-            <li>
-                <i class="fa-li fa fa-check"></i>
-                Unsupervised learning techniques: (K-means Clustering) </li>
-            <li>
-                <i class="fa-li fa fa-check"></i>
-                Time Series Analysis Techniques: (CUSUM, Exponential Smoothing, ARIMA, GARCH</li>
-            <li>
-            <li>
-                <i class="fa-li fa fa-check"></i>
-                Tree-based models: CART, Random Forests</li>
-            <li>
-            <li>
-                <i class="fa-li fa fa-check"></i>
-                Data Preparation and Model Selection: PCA, Cross Validation</li>
-            <li>
-            <li>
-                <i class="fa-li fa fa-check"></i>
-                Predictive Modeling techniques: Linear &amp; Logistic Regression, ANOVA</li>
-            <li>
-            <li>
-                <i class="fa-li fa fa-check"></i>
-                Optimization Techniques: Convex Optimization (transportation, capacity, scheduling)</li>
-            <li>
-        </ul>
-        </div>
-    </section>
-
+    {% include skills.html %}
     
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
-        <div class="w-100">
-        <h2 class="mb-5">Interests</h2>
-        <p>Digital Art - I'm hoping to get some pieces published on this site soon. </p>
-        <p class="mb-0">Sports - I love Boston sports and I am a huge NBA and NFL fan. </p>
-        </div>
-    </section>
+    {% include interests.html %}
 
     </div>
 </body>
-    
-    <!-- Bootstrap core JavaScript -->
-    <script src="assets/bootstrap/jquery/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-  </body>
-</html>
