@@ -1,0 +1,13 @@
+---
+title: Portfolio
+---
+<h1>Data Science Portfolio</h1>
+
+<ul>
+  {% for piece in site.portfolio %}
+    <li>
+      <h2><a href ="{{ piece.url }}">{{ piece.topic }}</a></h2>
+      <p>{{ piece.content | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>

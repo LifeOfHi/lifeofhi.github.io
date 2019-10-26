@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";",
+		"//@import 'bootstrap/bootstrap.scss';\n// @import 'resume.css';\n\n// $headings-font-weight: 600;\n// $blockquote-font-size: $font-size-base;\n\n\n// @import 'nav';\n// @import 'container';\n\n// .current {\n//     color: green;\n//   }\n\n// $font-stack:    Helvetica, sans-serif;\n// $primary-color: #333;\n\n// body {\n//   font: 100% $font-stack;\n//   color: $primary-color;\n// }\n\n\n"
+	],
+	"names": [],
+	"mappings": ""
+}
